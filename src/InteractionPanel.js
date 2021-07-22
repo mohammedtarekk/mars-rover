@@ -11,7 +11,7 @@ const InteractionPanel = () => {
 
     async function initializeRoverCoordinates(){
         const response = await fetch(
-            `http://localhost:5000/api/start`
+            `https://marsroverapi.herokuapp.com/initialize`
         );
 
         const jsonValue = await response.json();
@@ -21,7 +21,7 @@ const InteractionPanel = () => {
 
     async function moveRover() {
         const response = await fetch(
-            `http://localhost:5000/api/moverover/${command}`
+            `https://marsroverapi.herokuapp.com/moverover/${command}`
         );
 
         const jsonValue = await response.json();
