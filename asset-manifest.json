@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/mars-rover/static/js/main.ec1ba54b.chunk.js",
+    "main.js.map": "/mars-rover/static/js/main.ec1ba54b.chunk.js.map",
+    "runtime-main.js": "/mars-rover/static/js/runtime-main.95cf4b18.js",
+    "runtime-main.js.map": "/mars-rover/static/js/runtime-main.95cf4b18.js.map",
+    "static/js/2.c01337c9.chunk.js": "/mars-rover/static/js/2.c01337c9.chunk.js",
+    "static/js/2.c01337c9.chunk.js.map": "/mars-rover/static/js/2.c01337c9.chunk.js.map",
+    "index.html": "/mars-rover/index.html",
+    "static/js/2.c01337c9.chunk.js.LICENSE.txt": "/mars-rover/static/js/2.c01337c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95cf4b18.js",
+    "static/js/2.c01337c9.chunk.js",
+    "static/js/main.ec1ba54b.chunk.js"
+  ]
+}
