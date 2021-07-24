@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import InteractionPanel from './InteractionPanel'
+import MoveRover from './moverover'
+import Header from './header'
 
 ReactDOM.render(
   <React.StrictMode>
-    <InteractionPanel />
+    <Header />
+    <MoveRover />
+    <CalculateCommand />
   </React.StrictMode>,
   document.getElementById('root')
 );

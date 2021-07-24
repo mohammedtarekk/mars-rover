@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const InteractionPanel = () => {
+const MoveRover = () => {
     const [command, setCommand] = useState("");
     const [coordinates, setCoordinates] = useState({});
     const [warning, setWarning] = useState("");
@@ -11,7 +11,7 @@ const InteractionPanel = () => {
 
     async function initializeRoverCoordinates(){
         const response = await fetch(
-            `https://marsroverapi.herokuapp.com/initialize`
+            `https://marsroverapi.herokuapp.com/getCoordinates`
         );
 
         const jsonValue = await response.json();
@@ -36,9 +36,6 @@ const InteractionPanel = () => {
 
     return(
         <div>
-            <h1>Welcome to Mars Rover!</h1>
-            <h2>Move rover on mars</h2>
-
             <div className="instructions">
                 Type a sequence of the following instructions:
                 <ul>
@@ -71,4 +68,4 @@ const InteractionPanel = () => {
     );
 }
 
-export default InteractionPanel;
+export default MoveRover;
